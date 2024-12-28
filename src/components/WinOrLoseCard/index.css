@@ -1,0 +1,77 @@
+/* Write your code here. */
+.win-lose-container {
+  background-color: #9796f0;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #ffffff33;
+  border-radius: 15px;
+}
+
+.score-container {
+  padding: 10px;
+  text-align: center;
+  margin-right: 20px;
+}
+.win-lose-image {
+  width: 280px;
+  height: 350px;
+  margin-left: 20px;
+}
+.game-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 45px;
+}
+.your-score-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.your-score {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.play-again-btn {
+  background-color: #ffce27;
+  border: 0;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  width: 90px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .win-lose-container {
+    padding: 20px;
+  }
+  .win-lose-image {
+    width: 160px;
+    height: 220px;
+    margin-left: 10px;
+  }
+  .game-status {
+    font-size: 30px;
+  }
+  .your-score-status {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .your-score {
+    font-size: 26px;
+  }
+  .play-again-btn {
+    padding: 8px;
+    font-size: 8px;
+    width: 60px;
+    border-radius: 10px;
+  }
+}
